@@ -2,11 +2,11 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="px-[150px] py-10">
+    <div className="px-60 py-10 max-lg:items-center max-lg:px-10">
       <img
         src="./asterics.svg"
         alt="logo"
-        className="my-[42px] w-[60px] justify-self-start"
+        className="w-[60px] justify-self-start"
       />
       <h1 className="text-[50px] text-[#1D1D1C]">
         Descomplicando as{' '}

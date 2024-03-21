@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div className="flex flex-1 flex-row items-center px-[90px] py-[30px]">
+    <div className="flex flex-1 flex-row items-center px-10 py-14 max-lg:items-center">
       <img
         src="./logo.jpg"
         alt="logo"
