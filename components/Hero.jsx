@@ -6,15 +6,17 @@ const Hero = () => {
       <img
         src="./asterics.svg"
         alt="logo"
-        className="w-[60px] justify-self-start"
+        className="w-[60px] justify-self-start py-5"
       />
-      <h1 className="text-[50px] text-[#1D1D1C]">
+      <h1 className="text-[50px] text-[#1D1D1C] max-lg:text-3xl">
         Descomplicando as{' '}
-        <h1 className="text-[50px] font-bold text-[#1D1D1C]">experiências </h1>
+        <h1 className="text-[50px] font-bold text-[#1D1D1C] max-lg:text-4xl">
+          experiências{' '}
+        </h1>
         na universidade
       </h1>
       <img src="./arrow.svg" alt="arrow" className="my-[30px]" />
-      <p className="w-[450px] text-[#1D1D1C]">
+      <p className="w-1/2 text-[#1D1D1C] max-lg:w-4/5 max-lg:text-xl">
         Desde organizar sua agenda até conectar-se com colegas para projetos
         colaborativos, nossa plataforma oferece uma experiência completa e
         intuitiva. Explore novos caminhos de aprendizado, descubra recursos
